@@ -66,3 +66,10 @@ Please use this tool responsibly and in compliance with applicable laws and regu
 This password cracker tool is open-source software released under the [GNU General Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html). You are free to use, modify, and distribute this software in accordance with the terms of the GPLv3 license.
 
 Please review the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html) to understand your rights and responsibilities when using this software.
+
+## Support Me
+
+If you liked this, please consider leaving a star ⭐
+
+If you found this to be useful, make sure to follow me for more 🙃
+
