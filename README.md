@@ -15,7 +15,7 @@ A straightforward yet effective password cracker tool with multi-threading devel
 
 1. Clone the repository:
 ```
-git clone 
+git clone https://github.com/yanpuri/Polycrypt-Password-Cracker.git
 cd Polycrypt-Password-Cracker
 ```
 2. Install the required libraries
