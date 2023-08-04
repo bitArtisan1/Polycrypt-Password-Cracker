@@ -1,5 +1,5 @@
 # Polycrypt Password Cracking Tool
-A simple password cracker tool developed in Python using the Tkinter GUI framework.
+A straightforward yet effective password cracker tool with multi-threading developed in Python, utilizing the user-friendly Tkinter GUI framework to provide an intuitive and interactive graphical interface.
 
 ## Features
 
@@ -15,12 +15,12 @@ A simple password cracker tool developed in Python using the Tkinter GUI framewo
 
 1. Clone the repository:
 ```
-$ git clone 
-$ cd Polycrypt-Password-Cracker
+git clone 
+cd Polycrypt-Password-Cracker
 ```
 2. Install the required libraries
 ```python
-$ pip install passlib ttkthemes
+pip install passlib ttkthemes
 ```
 3. Run the password cracker:
 ```python
