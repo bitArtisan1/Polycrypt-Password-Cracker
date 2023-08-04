@@ -37,9 +37,9 @@ python polycrypt.py
 ## Images:
 
 ### SHA-512 Algorithm Cracking:
-![sha512](https://github.com/yanpuri/CapScript/assets/121260820/59ef38af-1cfb-43bd-abe6-b348d3708b18)
+![sha512](https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/7feb603c-bf83-4631-b560-9993cc3097dc)
 ### Bcrypt Algorithm Cracking:
-![bcrypt](https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/7feb603c-bf83-4631-b560-9993cc3097dc)
+![bcrypt](https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/bb6c4bd8-7f8f-43b3-b3e3-dd2270a95c4a)
 
 ## Legal Notice
 
