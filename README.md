@@ -43,7 +43,7 @@ python polycrypt.py
 
 ## Legal Notice
 
-This password cracker tool is intended for educational and personal use only. The tool is designed to demonstrate the concepts of password hashing, security vulnerabilities, and password cracking techniques. 
+This password cracker tool, Polycrypt, is intended for educational and personal use only. The tool is designed to demonstrate the concepts of password hashing, security vulnerabilities, and password cracking techniques. 
 
 By using this tool, you acknowledge that:
 
