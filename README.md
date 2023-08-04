@@ -1,6 +1,12 @@
 # Polycrypt Password Cracking Tool
 A straightforward yet effective password cracker tool with multi-threading developed in Python, utilizing the user-friendly Tkinter GUI framework to provide an intuitive and interactive graphical interface.
 
+<p align="center">
+  <img src="https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/df9f12b8-f7f8-4f05-bd21-5ae9e086fd9d" alt="Image Description">
+</p>
+
+<p align="center"><strong><em>Polycrypt, Python Powered Password Cracking Tool (Polycrypt)</em></strong></p>
+
 ## Features
 
 - Supports multiple hash algorithms, including MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-256, SHA3-384, SHA3-512, and Bcrypt.
