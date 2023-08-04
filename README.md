@@ -33,7 +33,7 @@ python polycrypt.py
 * I plan to add support for a dozen more hashes in the future
 * Improve the data structures used
 * Use more optimization techniques and algorithms for faster results
-* If you are interested in learning more about hashing algorithms, check out this GitHub repository [sha256algorithm](https://github.com/dmarman/sha256algorithm) by [dmarman](https://github.com/dmarman), and visit this website for a detailed visual explanation of what's happening [sha256algorithm.com](sha256algorithm.com)
+* If you are interested in learning more about hashing algorithms, check out this GitHub repository [sha256algorithm](https://github.com/dmarman/sha256algorithm) by [dmarman](https://github.com/dmarman), and visit this website for a detailed visual explanation of what's happening [sha256algorithm.com](https://sha256algorithm.com/)
 
 ## Images:
 
