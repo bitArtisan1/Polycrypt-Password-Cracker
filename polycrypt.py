@@ -143,25 +143,22 @@ def browse_wordlist_path():
         wordlist_path_entry.delete(0, tk.END)
         wordlist_path_entry.insert(0, file_path)
 
-
 # Create the themed GUI
 root = ThemedTk(theme="equilux")
 root.title("Polycrypt: @yanpuri")
 root.iconbitmap(
     "C:/Users/pc/Downloads/lock_open_FILL0_wght400_GRAD0_opsz48.ico"
-)  # Path to your icon
+)
 root.geometry("550x270")
 
 frame = ttk.Frame(root, padding="20")
 frame.pack(fill=tk.BOTH, expand=True)
 
-# Styling options for labels and entries
 label_style = ttk.Style()
 label_style.configure("Label.TLabel", foreground="white")
 entry_style = ttk.Style()
 entry_style.configure("Entry.TEntry", fieldbackground="white")
 
-# Apply styles to labels and entries
 target_hash_label = ttk.Label(frame, text="Target Hash:", style="Label.TLabel")
 target_hash_label.pack()
 
@@ -200,7 +197,6 @@ max_password_length_label.pack()
 max_password_length_entry = ttk.Entry(frame, width=50, style="Entry.TEntry")
 max_password_length_entry.pack()
 
-# Customized button style
 ttk.Separator(frame, orient="horizontal").pack(pady=5)
 crack_button = ttk.Button(frame, text="Crack Password", command=on_crack_button_click)
 crack_button.pack()
@@ -211,7 +207,6 @@ crack_button_style.configure(
 crack_button_style.map("CrackButton.TButton", background=[("active", "#45a049")])
 crack_button["style"] = "CrackButton.TButton"
 
-# Styling options for the result label
 result_label = ttk.Label(
     frame, text="", wraplength=450, justify=tk.LEFT, style="Label.TLabel"
 )
