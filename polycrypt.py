@@ -146,9 +146,6 @@ def browse_wordlist_path():
 # Create the themed GUI
 root = ThemedTk(theme="equilux")
 root.title("Polycrypt: @yanpuri")
-root.iconbitmap(
-    "C:/Users/pc/Downloads/lock_open_FILL0_wght400_GRAD0_opsz48.ico"
-)
 root.geometry("550x270")
 
 frame = ttk.Frame(root, padding="20")
