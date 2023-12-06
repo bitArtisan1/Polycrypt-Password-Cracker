@@ -26,7 +26,7 @@ cd Polycrypt-Password-Cracker
 ```
 2. Install the required libraries
 ```python
-pip install passlib ttkthemes
+pip install passlib ttkthemes hashID bcrypt
 ```
 3. Run the password cracker:
 ```python
