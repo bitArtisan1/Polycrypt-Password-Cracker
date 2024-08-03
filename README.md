@@ -1,3 +1,9 @@
+<div align="right">
+    <a href="https://www.buymeacoffee.com/bitArtisan">
+        <img src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee Pls!" />
+    </a>
+</div>
+
 # Polycrypt Password Cracking Tool
 A straightforward yet effective password cracker tool with multi-threading developed in Python, utilizing the user-friendly Tkinter GUI framework to provide an intuitive and interactive graphical interface.
 
