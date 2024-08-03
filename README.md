@@ -79,3 +79,11 @@ If you liked this, please consider leaving a star ⭐
 
 If you found this to be useful, make sure to follow me for more 🙃
 
+<a href="https://www.buymeacoffee.com/bitArtisan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=bitArtisan&button_colour=CBC3E3&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+<center>
+<div style="text-align: center;">
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/aeeda621-8287-4f89-bed3-8b89e09f85a5" alt="octodance" width="100" height="100" style="margin-right: 10px;"/>
+  </p>
+</div>
+</center>
