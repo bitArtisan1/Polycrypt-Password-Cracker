@@ -74,12 +74,17 @@ This password cracker tool is open-source software released under the [GNU Gener
 Please review the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html) to understand your rights and responsibilities when using this software.
 
 ## Support Me
+If you find RepoUp useful, consider supporting me by:
 
-If you liked this, please consider leaving a star ⭐
-
-If you found this to be useful, make sure to follow me for more 🙃
+- Starring the repository on GitHub
+- Sharing the tool with others
+- Providing feedback and suggestions
+- Follow me for more :)
 
 <a href="https://www.buymeacoffee.com/bitArtisan"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=bitArtisan&button_colour=CBC3E3&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+    
+---
+For any issues or feature requests, please open an issue on GitHub. Happy coding!
 <center>
 <div style="text-align: center;">
   <p align="center">
