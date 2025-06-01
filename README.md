@@ -13,6 +13,10 @@
 
 A hash cracking tool with GUI that supports multiple attack methods and hash algorithms. It includes support for a probabilistic mode which uses a GPT2 style autoregressive transformer model, trained for password generation and prediction.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2c6cce0f-dd50-4462-84b4-778718667444" alt="Alt text" width="300"/>
+</p>
+
 ## ✨ Features
 
 - 🔐 **Attack Modes**: Wordlist, Brute-force, Rule-based, AI-powered probabilistic, Rainbow tables
