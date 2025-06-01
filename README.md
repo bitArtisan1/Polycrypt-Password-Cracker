@@ -4,59 +4,79 @@
   </a>
 </p>
 
-# Polycrypt Password Cracking Tool
-A straightforward yet effective password cracker tool with multi-threading developed in Python, utilizing the user-friendly Tkinter GUI framework to provide an intuitive and interactive graphical interface.
+# PolycryptZero (p0) - Hash Decryption Tool
 
-<p align="center">
-  <img src="https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/df9f12b8-f7f8-4f05-bd21-5ae9e086fd9d" alt="Image Description">
-</p>
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v1.0-orange.svg)](https://github.com/bitArtisan1/p0-Decryption-Tool/releases)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 
-<p align="center"><strong><em>Polycrypt, Python Powered Password Cracking Tool (Polycrypt)</em></strong></p>
+A hash cracking tool with GUI that supports multiple attack methods and hash algorithms.
 
-## Features
+## ✨ Features
 
-- Supports multiple hash algorithms, including MD5, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-256, SHA3-384, SHA3-512, and Bcrypt.
-- Case-insensitive search
-- Uses efficient data structures for transformed passwords for faster membership checking.
-- Performs password cracking using wordlists and various password transformations (upper, lower, capitalize, reverse).
-- Interactive GUI for easier, clearer, faster, cracking
-- Multithreading and ThreadPoolingExecuoter
-- Hash-type detection system
+- 🔐 **Attack Modes**: Wordlist, Brute-force, Rule-based, AI-powered probabilistic, Rainbow tables
+- 🔒 **Hash Support**: MD5, SHA family, bcrypt, BLAKE2, and 20+ other algorithms  
+- 🤖 **AI Integration**: Custom GPT2 ML model for intelligent password generation and completion
+- 🌈 **Rainbow Tables**: Bloom filter optimized storage with SQLite backend
+- 🎨 **Modern GUI**: Dark theme interface with real-time progress tracking
 
-## Usage
+## 📦 Installation
 
-1. Clone the repository:
-```
-git clone https://github.com/yanpuri/Polycrypt-Password-Cracker.git
-cd Polycrypt-Password-Cracker
-```
-2. Install the required libraries
-```python
-pip install passlib ttkthemes hashID bcrypt
-```
-3. Run the password cracker:
-```python
-python polycrypt.py
+### Option 1: Executable (Windows)
+Download the latest release from [Releases](https://github.com/bitArtisan1/p0-Decryption-Tool/releases/tag/v1.0.0) and run `PolycryptZero.exe` - no Python required.
+
+### Option 2: Python Source
+```bash
+git clone https://github.com/bitArtisan1/p0-Decryption-Tool.git
+cd p0-Decryption-Tool
+pip install -r requirements.txt
+python src/main.py
 ```
 
-## Notes
+#### 📋 Requirements
 
-* I have included the 10-million most common passwords & the 1000-most common passwords lists in this repository for quick reference and accuracy
-* I plan to add support for a dozen more hashes in the future
-* Improve the data structures used
-* Use more optimization techniques and algorithms for faster results
-* If you are interested in learning more about hashing algorithms, check out this GitHub repository [sha256algorithm](https://github.com/dmarman/sha256algorithm) by [dmarman](https://github.com/dmarman), and visit this website for a detailed visual explanation of what's happening [sha256algorithm.com](https://sha256algorithm.com/)
+- **Python**: 3.11+
+- **Dependencies**: `customtkinter`, `pycryptodome`, `numpy`, `onnxruntime`, `transformers`
 
-## Images:
 
-### SHA-512 Algorithm Cracking:
-![sha512](https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/7feb603c-bf83-4631-b560-9993cc3097dc)
-### Bcrypt Algorithm Cracking:
-![bcrypt](https://github.com/yanpuri/Polycrypt-Password-Cracker/assets/121260820/bb6c4bd8-7f8f-43b3-b3e3-dd2270a95c4a)
+## 🚀 Usage
+
+1. Enter target hash
+2. Select hash algorithm 
+3. Choose attack mode
+4. Configure parameters (wordlist, character set, etc.)
+5. Start attack
+
+For `Wordlist` and `Rule-Based` modes, you need a passwords wordlist to test against (e.g: `rockyou.txt`):
+
+```cmd
+curl -LO https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+```
+
+For probablistic mode, choose the provided `onnx_model` directory
+
+## ⚔️ Attack Modes
+
+- 📚 **Wordlist**: Dictionary attack using password lists 
+- 💪 **Brute-force**: Try all possible combinations
+- ⚙️ **Rule-based**: Apply transformations to wordlist (capitalization, leet speak, etc.)
+- 🧠 **Probabilistic**: AI model generates likely passwords, use provided `onnx_model` path
+- 🌈 **Rainbow Table**: Precomputed hash lookups
+
+## TODO
+
+- Improve model architecture for better pattern matching
+- Add linux support release
+- Add CUDA GPU support for probablistic attack mode
+
+## GUI
+
+![p0](https://github.com/user-attachments/assets/96a9679e-bae8-4ffb-9f8c-9fc48e43cf8a)
 
 ## Legal Notice
 
-This password cracker tool, Polycrypt, is intended for educational and personal use only. The tool is designed to demonstrate the concepts of password hashing, security vulnerabilities, and password cracking techniques. 
+This password cracker tool, PolycryptZero™, is intended for educational and personal use only. The tool is designed to demonstrate the concepts of password hashing, security vulnerabilities, and password cracking techniques. 
 
 By using this tool, you acknowledge that:
 
@@ -66,15 +86,10 @@ By using this tool, you acknowledge that:
 - This tool should not be used for any malicious, illegal, or unethical activities.
 
 Please use this tool responsibly and in compliance with applicable laws and regulations. The developers of this tool disclaim any liability for improper or illegal use.
-
-## License
-
-This password cracker tool is open-source software released under the [GNU General Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html). You are free to use, modify, and distribute this software in accordance with the terms of the GPLv3 license.
-
-Please review the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html) to understand your rights and responsibilities when using this software.
+The name PolycryptZero™ and logo are not part of the open-source license and may not be used in derivative projects or forks without permission.
 
 ## Support Me
-If you find RepoUp useful, consider supporting me by:
+If you find this useful
 
 - Starring the repository on GitHub
 - Sharing the tool with others
