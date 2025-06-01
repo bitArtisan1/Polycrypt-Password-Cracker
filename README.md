@@ -11,7 +11,7 @@
 [![Release](https://img.shields.io/badge/Release-v1.0-orange.svg)](https://github.com/bitArtisan1/p0-Decryption-Tool/releases)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 
-A hash cracking tool with GUI that supports multiple attack methods and hash algorithms.
+A hash cracking tool with GUI that supports multiple attack methods and hash algorithms. It includes support for a probabilistic mode which uses a GPT2 style autoregressive transformer model, trained for password generation and prediction.
 
 ## ✨ Features
 
@@ -21,6 +21,14 @@ A hash cracking tool with GUI that supports multiple attack methods and hash alg
 - 🌈 **Rainbow Tables**: Bloom filter optimized storage with SQLite backend
 - 🎨 **Modern GUI**: Dark theme interface with real-time progress tracking
 
+`Probablistic` mode uses an autoregressive transformer model, similar to GPT-2, for sequential data analysis:
+
+**Key Features: (check src/train.py)**
+
+*   **Transformer Architecture:** Employs multi-layer, multi-head self-attention mechanisms.
+*   **Generative:** Predicts subsequent elements in a sequence.
+*   **Configurable:** Core parameters like layers, attention heads, and embedding dimensions can be adjusted.
+  
 ## 📦 Installation
 
 ### Option 1: Executable (Windows)
