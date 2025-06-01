@@ -54,14 +54,14 @@ For `Wordlist` and `Rule-Based` modes, you need a passwords wordlist to test aga
 curl -LO https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 ```
 
-For probablistic mode, choose the provided `onnx_model` directory
+For probablistic mode, choose the provided `onnx_model-output` directory
 
 ## ⚔️ Attack Modes
 
 - 📚 **Wordlist**: Dictionary attack using password lists 
 - 💪 **Brute-force**: Try all possible combinations
 - ⚙️ **Rule-based**: Apply transformations to wordlist (capitalization, leet speak, etc.)
-- 🧠 **Probabilistic**: AI model generates likely passwords, use provided `onnx_model` path
+- 🧠 **Probabilistic**: AI model generates likely passwords, use provided `onnx_model_output` path
 - 🌈 **Rainbow Table**: Precomputed hash lookups
 
 ## TODO
