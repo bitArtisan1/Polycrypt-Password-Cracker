@@ -1,0 +1,11 @@
+# Core dependencies for PolycryptZero
+pillow==10.4.0
+pycryptodome==3.23.0
+cityhash==0.4.8
+mmh3==5.1.0
+xxhash==3.5.0
+bcrypt==4.3.0
+numpy==1.26.4
+customtkinter==5.2.2
+onnxruntime==1.22.0
+transformers==4.49.0

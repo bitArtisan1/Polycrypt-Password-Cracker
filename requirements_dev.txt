@@ -1,0 +1,7 @@
+# ML training dependencies (optional - only needed for train.py)
+torch>=2.0.0
+datasets>=2.0.0
+tokenizers>=0.13.0
+
+# Development/build dependencies  
+pyinstaller>=5.0.0
